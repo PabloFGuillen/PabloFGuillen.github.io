@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+    <head>
+        <meta name="Author" content="Pablo Guillén"/>
+        <meta name="Function" content="Portfolio"/>
+        <link rel="stylesheet" href="./content/resources/style.css"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            #encabezado{
+                font-family: Montserrat;
+                font-size: 4vh
+                
+            }
+
+            #portada{
+                position: absolute;
+                left: 68vw;
+                top: 0vh;
+                height: 99.99vh;
+            }
+
+            #biografia{
+                margin-top: 15vw;
+                margin-left: 14vw;
+            }
+
+            #pBiografia{
+                margin-left: 30vw;
+                font-family: Montserrat;
+                width: 37vw;
+                font-size: 2vh;
+            }
+
+            #imgB{
+                width: 20vw;
+                position: absolute;
+            }
+
+            #cBiografia{
+                font-size: 2vw;
+            }
+
+            #tablaM a{
+                color: white;
+                text-decoration: none;
+            }
+
+            #compentencias{
+                margin-top: 30vw;
+                margin-left: 14vw;
+            }
+
+            *{
+                scroll-behavior: smooth;
+            }
+
+            #habilidades{
+                margin-top: 30vw;
+                margin-left: 14vw;
+            }
+
+            #contacto{
+                margin-top: 30vw;
+                margin-left: 14vw;
+            }
+        </style>
+        <script>
+            function menu(){
+                var elemento = document.getElementById("menu");
+                elemento.style.left = '0px';
+            }
+
+            function menuS(){
+                var elemento = document.getElementById("menu");
+                elemento.style.left = '-8vw';
+            }
+
+        </script>
+    </head>
+    <body style="background-color: rgb(244, 234, 224)">
+        <div id="menu" onmouseover="menu()" onmouseout="menuS()">
+            <p>></p>
+            <table id="tablaM" style="color: white;">
+                <tr>
+                    <td>Índice</td>
+                </tr>
+                <tr>
+                    <th><a href="#biografia">Biografía</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#compentencias">Competencias</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#habilidades">Habilidades</a></th>
+                </tr>
+                <tr>
+                    <th><a href="#contacto">Contactos</a></th>
+                </tr>
+            </table>
+        </div>
+        <table id="Logo" style="margin-left: 20vw; margin-top: 7vw">
+            <tr>
+                <td id="encabezado" style="padding-left: 9vw; padding-bottom: 1.5vw">PORTFOLIO</td>
+            </tr>
+            <tr>
+                <td><a style="font-family: Bogart; font-size: 20vh; padding-left: 1.5vw">Pablo<br/>Guillén</a></td>
+            </tr>
+            <tr>
+                <td id="encabezado" style="padding-top: 13vh; padding-left: 4.6vw">ANDROID DEVELOPER</td>
+            </tr>
+        </table>
+        <img src="./content/resources/img/imgPort.jpg" id="portada"/>
+        <div id="biografia" name="biografia">
+            
+            <p id="encabezado"> BIOGRAFIA</p>
+            <img id="imgB" src="./content/resources/img/imgB.jpg" style="top: 130vh;left: 13vw; z-index: -1;"/>
+            <div id="pBiografia">
+                <p id="cBiografia" style="font-family: Bogart"> Soy desarrollador de aplicaciones multiplataforma.</p>
+                <p> Cursé el grado superior de Desarrollo de Aplicaciones Multiplataforma. He estado es un curso de formación de 1 mes en 42Madrid. Tambien he aprendido sobre el uso de distintas tecnologías como PHP de forma autodidacta</p>
+                <p> Entre mis aptitudes destacan mi capacidad de poder generar un buen entorno de trabajo. Soy muy trabajador, me gusta entregar todo los proyectos en tiempo y forma, con un estándar de calidad alto.
+                    Me destaco por ser autodidacta, y mi pasión por aprender el uso de nuevas tecnologías. También soy ambicioso, me gusta aprender para poder ser de los mejores en mi trabajo.</p>
+                <p> Mi objetivo en el mundo laboral es encontrar un puesto en el que me pueda desarrollar profesionalmente para conseguir ser de los mejores en mi trabajo a la vez que soy capaz de impulsar proyectos que garanticen el éxito de mi empresa.</p>
+            </div>
+        </div>
+        <div id="compentencias" name="compentencias">
+            <p id="encabezado">COMPETENCIAS</p>
+            <img src="./content/resources/img/imgC.jpg"  id="imgB" style="position: absolute; left: 13vw; top: 250vh"/>   
+            <div id="pBiografia">
+                <p> Conozco el uso de distintas tecnologías que forman parte del día a día del desarrollo web y software.</p>
+                <p> Conozco el uso de PHP para realizar conexiones desde HTML a bases de datos relacionles
+                    gracias al lenguaje SQL y a PHPMyAdmin, que está incluido dentro del paquete XAMPP, del cual tambien conozco su utlización.
+                    Tengo conocimientos de HTML y JavaScript, para la realización de páginas web así como de XML para crear
+                    aplicaciones web y manipular además de visualizzr distintas interfaces gráficas. 
+                </p>
+                <p>
+                    Donde más destaco es en el desarrollo software. Conozco lenguajes como Java y Python, además de tener conocimientos
+                    básicos sobre C. Inclusive, soy capaz de desarrollar aplicaciones Android. 
+                </p>
+                <p>
+                    Por otro parte tengo un nivel B2 en Inglés y estoy depurando mis habilidades en Noruego.
+                </p>
+                </p>
+            </div>
+        </div>
+        <div id="habilidades" name="habilidades">
+            <p id="encabezado">HABLIDADES</p>
+            <img src="./content/resources/img/imgH.jpg" id="imgB" style=""/>
+            <div id="pBiografia">
+                <p>
+                    Soy capaz de generar un buen entorno de trabajo gracias a mis habilidades sociales. Soy capaz de trabajar muy bien en equipo,
+                    pudiendo comunicarme perfectamente con mis compañeros para proponer proyectos o soluciones. A pesar de esto, tambien trabajo
+                    eficientemente en solitario.
+                </p>
+                <p>
+                    Así mismo, tengo facilidad para el aprendizaje. Tengo mucha motivación por ser el mejor en mi trabajo lo que me lleva
+                    a querer aprender cosas nuevas, ya sea de forma autodidacta o por medio de distintos cursos de formación.
+                </p>
+                <p>
+                    Una habilidad que hace que me destaque es mi capacidad de multitasking. Puesto trabajar en varios proyectos al mismo tiempo,
+                    sin bajar la calidad de ninguno de los proyectos en los que esté trabajando en ese momento.
+                </p>
+                <p>
+                    Mi mayor virtud desde luego sería mi capacidad resolutiva. Puedo encontrar soluciones efectivas a distintos problemas
+                    gracias a mi capacidad imaginativa.
+                </p>
+            </div>
+        </div>
+        <div id="contacto" name="habilidades">
+            <p id="encabezado">CONTACTO</p> 
+            <div id="pBiografia" style="margin-left:0vw;">
+               <p>Correo: pablofguillen1503@gmail.com</p>
+               <p>Linkedin: <a href="https://linkedin.com/in/pablofguillen" target="_blank">Pablo Guillen</a></p> 
+            </div>
+        </div>
+        <footer>
+            <p>a</p>
+        </footer>
+    </body>

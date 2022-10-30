@@ -1,0 +1,42 @@
+body{
+    background-color: white;
+    transition-duration: 1s;
+}
+
+#menu{
+    position: fixed;
+    top: 0vmin;
+    left: -8vw;
+    background-color: black;
+    height: 100vh;
+    width: 22vmin;
+    color: white;
+    font-family: Montserrat;
+    transition-duration: 1s;
+}
+
+#menu > table{
+    padding-left: 0.5vw;
+    padding-top: 8vh
+}
+
+#menu > table th{
+    padding-top: 15vh;
+    text-align: left;
+    font-size: 2vmin;
+}
+
+#menu > p{
+    padding-left: 19vmin;
+}
+
+#menu > table th a:hover{
+    color: burlywood;
+    cursor: pointer;
+}
+
+@media screen and (max-width:480px){
+	body {
+		font-size:80%; 
+	} 
+}
